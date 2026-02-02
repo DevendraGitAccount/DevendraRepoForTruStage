@@ -1,0 +1,6 @@
+@SaveFileInGitPOC_HostAddress = http://localhost:5048
+
+GET {{SaveFileInGitPOC_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
