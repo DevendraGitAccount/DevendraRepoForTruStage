@@ -7,7 +7,7 @@ namespace SaveFileInGitPOC
         public int TemperatureC { get; set; }
 
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-
+        //Summary 
         public string? Summary { get; set; }
     }
 }
