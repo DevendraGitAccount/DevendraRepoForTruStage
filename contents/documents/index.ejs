@@ -1,0 +1,82 @@
+< div class = 'ejs-conditional ejs-depth-1' > <div class="mhr-signature-section mhr-signature-section--borrowers"> < span class = 'ejs-marker' data - parse - index = '0' data - depth = '1' data - type = 'text' data - ejs ='<% if (borrowers.length &gt; 0) { %>&lt;div class=&quot;mhr-signature-section mhr-signature-section--borrowers&quot;&gt;' > 1 < /span><div class='ejs-conditional ejs-depth-2'><span class='ejs-marker' data-parse-index='1' data-depth='2' data-type='localization' data-ejs='<% if (borrowers.length &gt; 1) { %> {{b2c3d4e5-f6a7-8901-bcde-f01234567891:value}}'>2</span > <span class='ejs-variable' data-parse-index='2' data-type='localization' data-key='{{b2c3d4e5-f6a7-8901-bcde-f01234567891:value}}' data-value=' B Test'> B Test < /span><span class='ejs-marker' data-parse-index='3' data-depth='2' data-type='close' data-ejs='&lt;% } %&gt;'>2</span > </div> < span class = 'ejs-phantom-content' style = 'display:none;' data - parse - index = '4' data - depth = '2' data - ejs = '&lt;% else { %&gt;&lt;h3 class=&quot;mhr-signature-heading&quot;&gt; {{ a1b2c3d4-e5f6-7890-abcd-ef1234567890:value }}&lt;/h3&gt;&lt;% } %&gt;' >& nbsp;
+</span>
+<span class='ejs-phantom-content' style='display:none;' data-parse-index='5' data-depth='1' data-ejs='{{31856239-9556-43f4-ab9b-a388bcfc391e:value}}&lt;div class=&quot;signature-blocks&quot;&gt;'>
+    & nbsp;
+</span>Add Localization < div class = "signature-blocks" > <div class='ejs-conditional ejs-depth-1'>
+    <span class='ejs-dot' data-parse-index='6' data-depth='1' style='font-size:16px;color:#2563eb;' data-type='open'>&#9679;</span>
+    <span class="ejs-foreach-index" data-type="open" data-foreach-index="1">1</span>
+    <div class="signature-block">
+        <div class="sig-row">
+            <div class="sig-col sig-col-main">
+                <p class="signature-name signature-name--org">
+                    <strong>
+                        <span class="ejs-variable" data-type="model" data-key="[[entityName]]" data-value="Borrower 1 TEST FUNC">Borrower 1 TEST FUNC</span>
+                    </strong>
+                </p>
+                <p class="signature-name-label">
+                    <span class="ejs-variable" data-parse-index="7" data-type="localization" data-key="{{a1b2c3d4-e5f6-7890-abcd-ef1234567890:value}}" data-value="Borrower">Borrower</span>
+                </p>
+                <div class="sig-by-row">
+                    <span class="sig-by-label">
+                        <span class="ejs-variable" data-parse-index="8" data-type="localization" data-key="{{c3d4e5f6-a7b8-9012-cdef-012345678902:value}}" data-value="By:">By:</span>
+                    </span>
+                    <div class="sig-by-line"></div>
+                </div>
+                <p class="sig-by-name-label">
+                    <span class="ejs-variable" data-parse-index="9" data-type="localization" data-key="{{d4e5f6a7-b8c9-0123-defa-012345678903:value}}" data-value="Authorized Signatory / Title">Authorized Signatory / Title</span>
+                </p>
+            </div>
+            <div class="sig-col sig-col-date">
+                <p class="signature-date-label">
+                    <span class="ejs-variable" data-parse-index="7" data-type="model" data-key="[[common.date]]" data-value="Date">Date</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <span class="ejs-foreach-index" data-type="close">1</span>
+    <span class="ejs-foreach-index" data-type="open" data-foreach-index="2">2</span>
+    <div class="signature-block">
+        <div class="sig-row">
+            <div class="sig-col sig-col-main">
+                <p class="signature-name">
+                    <span class="ejs-variable" data-type="model" data-key="[[entityName]]" data-value="Borrower 2">Borrower 2</span>
+                </p>
+                <p class="signature-name-label">
+                    <span class="ejs-variable" data-parse-index="7" data-type="localization" data-key="{{a1b2c3d4-e5f6-7890-abcd-ef1234567890:value}}" data-value="Borrower">Borrower</span>
+                    <span class="sig-seal">
+                        <span class="ejs-variable" data-parse-index="7" data-type="localization" data-key="{{e5f6a7b8-c9d0-1234-efab-012345678904:value}}" data-value="(Seal)">(Seal)</span>
+                    </span>
+                </p>
+            </div>
+            <div class="sig-col sig-col-date">
+                <p class="signature-date-label">
+                    <span class="ejs-variable" data-parse-index="7" data-type="model" data-key="[[common.date]]" data-value="Date">Date</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <span class="ejs-foreach-index" data-type="close">2</span>
+    <span class='ejs-dot' data-parse-index='7' data-depth='1' style='font-size:16px;color:#2563eb;' data-type='close'>&#9679;</span>
+</div>
+<span class='ejs-phantom-content' style='display:none;' data-parse-index='8' data-depth='1' data-ejs='&lt;% borrowers.forEach(function(entity, idx) { %&gt;'>&nbsp;</span>
+<span class='ejs-phantom-content' style='display:none;' data-parse-index='9' data-depth='1' data-ejs='&lt;% var entityName = getEntityName(entity); %&gt;'>&nbsp;</span>
+<span class='ejs-phantom-content' style='display:none;' data-parse-index='10' data-depth='1' data-ejs='&lt;% var entityIsNonIndiv = isNonIndividualEntity(entity); %&gt;'>&nbsp;</span>
+<span class='ejs-phantom-content' style='display:none;' data-parse-index='11' data-depth='1' data-ejs='&lt;% var role = entity.roles[0] || &#39;Borrower&#39;; %&gt;'>&nbsp;</span>
+<span class='ejs-phantom-content' style='display:none;' data-parse-index='12' data-depth='1' data-ejs='&lt;div class=&quot;signature-block&quot;&gt;&lt;div class=&quot;sig-row&quot;&gt;&lt;div class=&quot;sig-col sig-col-main&quot;&gt;'>&nbsp;</span>
+<span class='ejs-phantom-content' style='display:none;' data-parse-index='13' data-depth='1' data-ejs='&lt;% if (entityIsNonIndiv &amp;&amp; entity.nonIndividual) { %&gt;'>&nbsp;</span>
+<span class='ejs-phantom-content' style='display:none;' data-parse-index='14' data-depth='1' data-ejs='&lt;p class=&quot;signature-name signature-name--org&quot;&gt;&lt;strong&gt;[[entityName]]&lt;/strong&gt;&lt;/p&gt;&lt;p class=&quot;signature-name-label&quot;&gt;{{a1b2c3d4-e5f6-7890-abcd-ef1234567890:value}}&lt;/p&gt;&lt;div class=&quot;sig-by-row&quot;&gt;&lt;span class=&quot;sig-by-label&quot;&gt;{{c3d4e5f6-a7b8-9012-cdef-012345678902:value}}&lt;/span&gt;&lt;div class=&quot;sig-by-line&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;p class=&quot;sig-by-name-label&quot;&gt;{{d4e5f6a7-b8c9-0123-defa-012345678903:value}}&lt;/p&gt;'>&nbsp;</span>
+<span class='ejs-phantom-content' style='display:none;' data-parse-index='15' data-depth='1' data-ejs='&lt;% } %&gt;'>&nbsp;</span>
+<span class='ejs-phantom-content' style='display:none;' data-parse-index='16' data-depth='1' data-ejs='&lt;% else { %&gt;'>&nbsp;</span>
+<span class='ejs-phantom-content' style='display:none;' data-parse-index='17' data-depth='1' data-ejs='&lt;p class=&quot;signature-name&quot;&gt;[[entityName]]&lt;/p&gt;&lt;p class=&quot;signature-name-label&quot;&gt;{{a1b2c3d4-e5f6-7890-abcd-ef1234567890:value}}'>&nbsp;</span>
+<span class='ejs-phantom-content' style='display:none;' data-parse-index='18' data-depth='1' data-ejs='&lt;% if (showSeal) { %&gt;'>&nbsp;</span>
+<span class='ejs-phantom-content' style='display:none;' data-parse-index='19' data-depth='1' data-ejs='&lt;span class=&quot;sig-seal&quot;&gt;{{e5f6a7b8-c9d0-1234-efab-012345678904:value}}&lt;/span&gt;'>&nbsp;</span>
+<span class='ejs-phantom-content' style='display:none;' data-parse-index='20' data-depth='1' data-ejs='&lt;% } %&gt;'>&nbsp;</span>
+<span class='ejs-phantom-content' style='display:none;' data-parse-index='21' data-depth='1' data-ejs='&lt;/p&gt;'>&nbsp;</span>
+<span class='ejs-phantom-content' style='display:none;' data-parse-index='22' data-depth='1' data-ejs='&lt;% } %&gt;'>&nbsp;</span>
+<span class='ejs-phantom-content' style='display:none;' data-parse-index='23' data-depth='1' data-ejs='&lt;/div&gt;&lt;div class=&quot;sig-col sig-col-date&quot;&gt;'>&nbsp;</span>
+<span class='ejs-phantom-content' style='display:none;' data-parse-index='24' data-depth='1' data-ejs='&lt;% if (!suppressDate) { %&gt;'>&nbsp;</span>
+<span class='ejs-phantom-content' style='display:none;' data-parse-index='25' data-depth='1' data-ejs='&lt;p class=&quot;signature-date-label&quot;&gt;{{common.date}}&lt;/p&gt;'>&nbsp;</span>
+<span class='ejs-phantom-content' style='display:none;' data-parse-index='26' data-depth='1' data-ejs='&lt;% } %&gt;'>&nbsp;</span>
+<span class='ejs-phantom-content' style='display:none;' data-parse-index='27' data-depth='1' data-ejs='&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;'>&nbsp;</span>
+<span class='ejs-phantom-content' style='display:none;' data-parse-index='28' data-depth='1' data-ejs='&lt;% }); %&gt;'>&nbsp;</span>
+<span class='ejs-phantom-content' style='display:none;' data-parse-index='29' data-depth='1' data-ejs='&lt;/div&gt;&lt;/div&gt;'>&nbsp;</span></div><span class='ejs-marker' data-parse-index='30' data-depth='1' data-type='close' data-ejs='&lt;% } %&gt;'>1</span></div></div>
